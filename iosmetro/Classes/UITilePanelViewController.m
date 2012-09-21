@@ -123,9 +123,9 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
     [container setFrame:CGRectMake(self.horizontalMargin,
-                                  self.verticalMargin + 64,
-                                  self.view.frame.size.width - (self.horizontalMargin * 2),
-                                   self.view.frame.size.height - HEADER_HEIGHT - FOOTER_HEIGHT)];
+                                   self.verticalMargin + HEADER_HEIGHT,
+                                   self.view.frame.size.width - (self.horizontalMargin * 2),
+                                   self.view.frame.size.height - HEADER_HEIGHT - FOOTER_HEIGHT - (self.verticalMargin * 2))];
     [self arrangeTiles];
     return YES;
 }
