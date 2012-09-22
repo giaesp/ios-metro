@@ -11,3 +11,8 @@ Contacts
 * Facebook: http://www.facebook.com/pages/Gianluca-Esposito/149686058586?ref=hl
 * Twitter: https://twitter.com/ilNero
 * Pinterest: http://pinterest.com/ilnero/
+
+Resources
+------------
+
+* Icon set is 'Devine icons' by Ipanpun (http://www.iconfinder.com/search/?q=iconset:devine_icons)
