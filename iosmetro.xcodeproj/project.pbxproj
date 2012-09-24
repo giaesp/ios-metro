@@ -47,6 +47,7 @@
 		61C93631160D22DE003860BA /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 61C9362F160D22DE003860BA /* calculator.png */; };
 		61C93632160D22DE003860BA /* maps.png in Resources */ = {isa = PBXBuildFile; fileRef = 61C93630160D22DE003860BA /* maps.png */; };
 		61C93638160D26F0003860BA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 61C93637160D26F0003860BA /* README.md */; };
+		61C9365516104AB3003860BA /* appico.png in Resources */ = {isa = PBXBuildFile; fileRef = 61C9365416104AB3003860BA /* appico.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +98,7 @@
 		61C9362F160D22DE003860BA /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calculator.png; sourceTree = "<group>"; };
 		61C93630160D22DE003860BA /* maps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maps.png; sourceTree = "<group>"; };
 		61C93637160D26F0003860BA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		61C9365416104AB3003860BA /* appico.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appico.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		61C93596160CC23B003860BA = {
 			isa = PBXGroup;
 			children = (
+				61C9365416104AB3003860BA /* appico.png */,
 				61C93637160D26F0003860BA /* README.md */,
 				61C935AB160CC23B003860BA /* iosmetro */,
 				61C935A4160CC23B003860BA /* Frameworks */,
@@ -305,6 +308,7 @@
 				61C93631160D22DE003860BA /* calculator.png in Resources */,
 				61C93632160D22DE003860BA /* maps.png in Resources */,
 				61C93638160D26F0003860BA /* README.md in Resources */,
+				61C9365516104AB3003860BA /* appico.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +396,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iosmetro/iosmetro-Prefix.pch";
 				INFOPLIST_FILE = "iosmetro/iosmetro-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -404,7 +408,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iosmetro/iosmetro-Prefix.pch";
 				INFOPLIST_FILE = "iosmetro/iosmetro-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
